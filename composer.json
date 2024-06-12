@@ -1,0 +1,20 @@
+{
+  "name": "iqbal/karyawangenerator",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Iqbal\\Karyawangenerator\\": "src/",
+      "Utils\\": "src/utils/"
+    }
+  },
+  "authors": [
+    {
+      "name": "iqbal syuhada",
+      "email": "iqbalfarhan1996@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/dotenv": "^7.1",
+    "fakerphp/faker": "^1.23"
+  }
+}
